@@ -43,7 +43,7 @@ pagamento para cada empregado desde a última vez em que este foi pago.
 
 # Funcionalidades:
 
-• Adição de um empregado:
+## Adição de um empregado:
   
   Um novo empregado é adicionado ao sistema. Os
   seguintes atributos são fornecidos: nome, endereço, tipo
@@ -52,26 +52,26 @@ pagamento para cada empregado desde a última vez em que este foi pago.
   Um número de empregado (único) deve ser escolhido
   automaticamente pelo sistema.
   
-• Remoção de um empregado:
+## Remoção de um empregado:
   
   Um empregado é removido do sistema.
   
-• Lançar um Cartão de Ponto:
+## Lançar um Cartão de Ponto:
   
   O sistema anotará a informação do cartão de ponto e a
   associará ao empregado correto.
   
-• Lançar um Resultado Venda:
+## Lançar um Resultado Venda:
   
   O sistema anotará a informação do resultado da venda e
   a associará ao empregado correto.
 
-• Lançar uma taxa de serviço:
+## Lançar uma taxa de serviço:
   
   O sistema anotará a informação da taxa de serviço e a
   associará ao empregado correto.
   
-• Alterar detalhes de um empregado:
+## Alterar detalhes de um empregado:
   
   Os seguintes atributos de um empregado podem ser
   alterados: nome, endereço, tipo
@@ -79,19 +79,19 @@ pagamento para cada empregado desde a última vez em que este foi pago.
   se pertence ao sindicato ou não, identificação no
   sindicato, taxa sindical
   
-• Rodar a folha de pagamento para hoje:
+## Rodar a folha de pagamento para hoje:
   
   O sistema deve achar todos os empregados que devem
   ser pagos no dia indicado, deve calcular o valor do salário
   e deve providenciar o pagamento de acordo com o
   método escolhido pelo empregado.
   
-• Undo/redo:
+## Undo/redo:
   
   Qualquer transação associada as funcionalidades 1 a 7
   deve ser desfeita (undo) ou refeita (redo).
   
-• Agenda de Pagamento:
+## Agenda de Pagamento:
   
   Cada empregado é pago de acordo com uma "agenda de
   pagamento". Empregados podem selecionar a agenda de
@@ -101,7 +101,7 @@ pagamento para cada empregado desde a última vez em que este foi pago.
   Posteriormente, um empregado pode pedir para
   ser pago de acordo com qualquer uma dessas agendas.
   
-• Criação de Novas Agendas de Pagamento:
+## Criação de Novas Agendas de Pagamento:
   
   A direção da empresa pode criar uma nova agenda de
   pagamento e disponibilizá-la para os empregados
@@ -114,7 +114,7 @@ pagamento para cada empregado desde a última vez em que este foi pago.
   sextas-feiras "semanal 2 segunda": a cada 2 semanas às
   segundas-feiras
   
-• Listar empregados (função a mais):
+## Listar empregados (função a mais):
   
   Lista todos os empregados cadastrados no sistema.
   
