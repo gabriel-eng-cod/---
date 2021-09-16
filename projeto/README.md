@@ -118,7 +118,7 @@ pagamento para cada empregado desde a última vez em que este foi pago.
   
   Lista todos os empregados cadastrados no sistema.
   
-##Este arquivo contém o refatoramento do projeto da Folha de Pagamento!
+## Este arquivo contém o refatoramento do projeto da Folha de Pagamento!
 
 Foram utilizados os seguintes métodos para tratar os smells do código:
 
