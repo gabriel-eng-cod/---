@@ -1,4 +1,4 @@
-public class Historico 
+public class Historico  //CLASSE EXCLUSIVA PARA UNDO E REDO
 {
     Horista horis;
     Assalariado assal;
