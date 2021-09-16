@@ -41,6 +41,17 @@ identificação no sistema de folha de pagamento.
 naquele dia. O sistema receberá a data até a qual o pagamento deve ser feito e calculará o
 pagamento para cada empregado desde a última vez em que este foi pago.
 
+# Funcionalidades:
+
+• Adição de um empregado:
+  
+  Um novo empregado é adicionado ao sistema. Os
+  seguintes atributos são fornecidos: nome, endereço, tipo
+  (hourly, salaried, commissioned) e os atributos
+  associados (salário horário, salário mensal, comissão).
+  Um número de empregado (único) deve ser escolhido
+  automaticamente pelo sistema.
+
 Este arquivo contém o refatoramento do projeto da Folha de Pagamento!
 
 Foram utilizados os seguintes métodos para tratar os smells do código:
