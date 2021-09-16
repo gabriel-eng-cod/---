@@ -67,7 +67,7 @@ public class Agenda_Semanal implements Strategy{
             {
                 nova += " Sexta";
             }
-            
+
         return nova; 
     }
 }

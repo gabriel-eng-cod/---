@@ -1,5 +1,6 @@
 import java.util.Scanner;
-//import java.util.LinkedList;
+//import java.util.LinkedList;1
+
 
 public class Main {
 

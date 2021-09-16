@@ -35,17 +35,15 @@ public class Agenda_Pagamento
         if(escolha == 1)
         {
             new_agenda = new Agenda_Semanal();
-
-            System.out.printf("\nA agenda '%s' foi criada\n", new_agenda);
         }
         else
         {
             new_agenda = new Agenda_Mensal();
-
-            System.out.printf("\nA agenda '%s' foi criada\n", new_agenda);
         }
 
         nova = new_agenda.criar_agenda();
+
+        System.out.printf("\nA agenda '%s' foi criada\n", nova);
 
         formas_pagamento.add(nova);
 

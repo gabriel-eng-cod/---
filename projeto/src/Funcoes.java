@@ -905,7 +905,7 @@ public class Funcoes implements Cloneable{
                 }
             }
 
-            if(assalariado.comissionado == 1)
+            if(pagamento.contains("Semanal"))
             {
                 if(pagamento.contains(dia_atual))
                 {
@@ -941,10 +941,16 @@ public class Funcoes implements Cloneable{
                     }
                     else
                     {
-                        char numero = pagamento.charAt(7);
-                        int aux = Character.getNumericValue(numero);
+                        String numero = "";
+                        for(int i = 7; i < pagamento.length(); i++)
+                        {
+                            numero += pagamento.charAt(i);
+                        }
+                        //char numero = pagamento.charAt(7);
+                        //int aux = Character.getNumericValue(numero);
+                        int num = Integer.parseInt(numero);
 
-                        if(dia == aux)
+                        if(dia == num)
                         {
                             System.out.printf("Nome: %s\n", assalariado.name);
 
