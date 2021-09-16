@@ -1,14 +1,11 @@
-## Getting Started
+# Folha de Pagamento
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este arquivo contém o refatoramento do projeto da Folha de Pagamento!
 
-## Folder Structure
+Foram utilizados os seguintes métodos para tratar os smells do código:
 
-The workspace contains two folders by default, where:
+# Extract Class:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este método serve para quando existe duas classes exercendo as mesmas funções, o Extract Class é usado para que uma classe faça o trabalho das duas. Simplificando seu código e deixando-o mais enxuto e compreensível. No código, o método foi usado na classe Empregado, que engloba as classes Horista e Assalariado.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Template Method:
